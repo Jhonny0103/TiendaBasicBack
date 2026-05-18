@@ -1,0 +1,13 @@
+1. Usamos el proyecto ASP.NET
+2. Descargamos los nugget :
+  - Microsoft.EntityFrameworkCore.SqlServer(Principal)
+  - Microsoft.EntityFrameworkCore.Tools
+3. Creamos el Data/context, permite interactuar C# con Sql Server dando opciones de consultas, conexiones y persistencia de cambios.
+4. Creamos los modelos, permite mapear el objeto.
+5. Creamos Repositorios e Interfacez.
+6. Configuramos de forma que añadamos:
+  - La configuración de la BBDD y su conexión.
+  - La intyeccion de dependencias del Repositorio, para que lo reconozca.
+7. Creamos el controller y añadimos las llamadas.
+
+"Esta forma se llama Stored Procedures/Raw SQL sobre EF Core". Hay otras formas que iremos integrando como EF Core Idiomatico (Add,Update,Reomve + SaveChangeAsync)
