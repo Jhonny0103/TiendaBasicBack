@@ -11,3 +11,4 @@
 7. Creamos el controller y añadimos las llamadas.
 
 "Esta forma se llama Stored Procedures/Raw SQL sobre EF Core". Hay otras formas que iremos integrando como EF Core Idiomatico (Add,Update,Reomve + SaveChangeAsync)
+        --> Mirar Repo de ApiCubosSegundoPractico de 0102
